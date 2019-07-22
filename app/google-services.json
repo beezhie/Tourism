@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "44554588711",
+    "firebase_url": "https://tourism-f5d93.firebaseio.com",
+    "project_id": "tourism-f5d93",
+    "storage_bucket": "tourism-f5d93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44554588711:android:ad9328b62faffa79",
+        "android_client_info": {
+          "package_name": "com.wisata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44554588711-5lf1m22dnomcbl7htaio75kbashrs7l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wisata",
+            "certificate_hash": "5b295afd5a8febda822b49c9be278488c83a954c"
+          }
+        },
+        {
+          "client_id": "44554588711-ol4ecg70ogn84vfe89k7job14ldi2aal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wisata",
+            "certificate_hash": "d8925c998f76c795f22e355270781cc1d9ef67bf"
+          }
+        },
+        {
+          "client_id": "44554588711-cseuse3gla2co3a10dg5gdor356d96t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBltPdnbbVv3TrbiScOJK28ZeQJ0K_mcoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44554588711-cseuse3gla2co3a10dg5gdor356d96t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
