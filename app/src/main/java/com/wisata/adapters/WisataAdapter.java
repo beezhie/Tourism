@@ -1,7 +1,7 @@
 package com.wisata.adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,9 +19,9 @@ import java.util.List;
 
 public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataHolder> {
 
-    private Context mContext;
-    private List<Wisata> wisataList;
-    private int lastPosition = -1;
+    private final Context mContext;
+    private final List<Wisata> wisataList;
+    private final int lastPosition = -1;
 
     public class WisataHolder extends RecyclerView.ViewHolder {
         public TextView nama;

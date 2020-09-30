@@ -1,7 +1,7 @@
 package com.wisata.adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +21,7 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
 
     private Context mContext;
     private List<Wisata> favoriteList;
-    private int lastPosition = -1;
+    private final int lastPosition = -1;
 
     public class FavoriteHolder extends RecyclerView.ViewHolder {
         public TextView nama;

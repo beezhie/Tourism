@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="15dp"
     tools:context=".fragments.TerdekatFragment">
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
@@ -38,13 +38,13 @@
                     android:text="Jarak"
                     android:textStyle="bold" />
             </LinearLayout>
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/terdekat"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/urut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,5 +52,5 @@
             android:layout_margin="@dimen/fab_margin"
             app:backgroundTint="@color/colorPrimary"
             app:srcCompat="@drawable/ic_action_search" />
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </FrameLayout>

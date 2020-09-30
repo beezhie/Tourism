@@ -1,7 +1,7 @@
 package com.wisata.adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,8 +19,8 @@ import java.util.List;
 
 public class RekomendasiAdapter extends RecyclerView.Adapter<RekomendasiAdapter.RekomendasiHolder> {
 
-    private Context mContext;
-    private List<Wisata> ratingList;
+    private final Context mContext;
+    private final List<Wisata> ratingList;
 
     public class RekomendasiHolder extends RecyclerView.ViewHolder {
         public TextView nama;

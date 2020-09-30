@@ -1,6 +1,6 @@
 package com.wisata.adapters;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +13,7 @@ import java.util.List;
 
 public class TerdekatAdapter extends RecyclerView.Adapter<TerdekatAdapter.TerdekatHolder> {
 
-    private List<Wisata> terdekatList;
+    private final List<Wisata> terdekatList;
 
     public class TerdekatHolder extends RecyclerView.ViewHolder {
         public TextView nama,jarak;
@@ -42,7 +42,7 @@ public class TerdekatAdapter extends RecyclerView.Adapter<TerdekatAdapter.Terdek
     public void onBindViewHolder(final TerdekatHolder holder, int position) {
         Wisata terdekat = terdekatList.get(position);
         holder.nama.setText(terdekat.getNama());
-        holder.jarak.setText(String.valueOf(terdekat.getJarak())+" Km");
+        holder.jarak.setText(terdekat.getJarak() +" Km");
     }
 
     @Override
